@@ -1,0 +1,70 @@
+# NLP Environment Setup (Ubuntu / Mac Terminal)
+
+## General Notes
+- Open terminal with **Ctrl + Alt + T** (Ubuntu) or Spotlight search (Mac).
+- First time only, run:
+  conda init
+  Then **close & reopen** terminal.
+
+---
+
+## 1. nlp_basics environment
+
+### View, create, and activate environments
+conda env list
+conda create --name nlp_basics -y
+conda env list
+conda activate nlp_basics
+
+### Install packages
+conda install python jupyter notebook pandas matplotlib scikit-learn spacy -y
+
+### NumPy compatibility (Option 1 – downgrade below 2)
+conda install "numpy<2" -y
+# if conflicts occur:
+conda install "numpy<2" "pandas<2.2" -y
+
+### View installed packages
+conda list
+
+### Additional spaCy download
+python -m spacy download en_core_web_sm
+
+---
+
+## 2. nlp_machine_learning environment
+
+### View, create, and activate environments
+conda env list
+conda create --name nlp_machine_learning -y
+conda env list
+conda activate nlp_machine_learning
+
+### Install and view packages
+conda install python jupyter notebook pandas matplotlib scikit-learn spacy openpyxl numpy -y
+conda install -c conda-forge vaderSentiment -y
+conda list
+
+### Additional spaCy download
+python -m spacy download en_core_web_sm
+
+---
+
+## 3. nlp_transformers environment
+
+### View, create, and activate environments
+conda env list
+conda create --name nlp_transformers -y
+conda env list
+conda activate nlp_transformers
+
+### Install and view packages
+conda install python jupyter notebook pandas numpy scikit-learn openpyxl transformers pytorch -y
+conda list
+
+---
+
+## Launch Jupyter Notebook or Lab
+jupyter notebook
+# or
+jupyter lab
