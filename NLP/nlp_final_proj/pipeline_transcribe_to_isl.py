@@ -52,7 +52,7 @@ def main():
     p.add_argument("--out", required=True, help="output isl mp4 path")
     p.add_argument("--workdir", default=None, help="temporary workdir prefix (created if missing)")
     p.add_argument("--assemblyai", default="assemblyai_transcript.py", help="path to assemblyai_transcript.py")
-    p.add_argument("--assembler", default="assemble_isl_ffmpeg.py", help="path to ISL assembler module (assemble_text_to_video)")
+    p.add_argument("--assembler", default="text2isl.py", help="path to ISL assembler module (assemble_text_to_video)")
     p.add_argument("--api_key", default=None, help="AssemblyAI API key (overrides file if assemblyai module has none)")
     p.add_argument("--width", type=int, default=1280)
     p.add_argument("--height", type=int, default=720)
