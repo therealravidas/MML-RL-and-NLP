@@ -1,0 +1,10 @@
+PY: 3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]
+PID: 12278
+cwd: /home/BTECH_7TH_SEM/Desktop/MML-RL-and-NLP/NLP/nlp_final_proj/python_files
+Environment thread limits: 1 1 1
+[start] mem: total=31G used=6G free=24G swap_free=7G
+Loading small metadata slice from: /home/BTECH_7TH_SEM/pspeech_meta/train.jsonl
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 32008 examples [00:00, 113070.28 examples/s]Generating train split: 66007 examples [00:00, 162893.36 examples/s]Generating train split: 97117 examples [00:00, 187713.75 examples/s]Generating train split: 130239 examples [00:00, 210872.08 examples/s]Generating train split: 166239 examples [00:00, 229357.60 examples/s]Generating train split: 204228 examples [00:00, 247089.29 examples/s]Generating train split: 238423 examples [00:01, 256799.71 examples/s]Generating train split: 269320 examples [00:01, 256110.95 examples/s]Generating train split: 302926 examples [00:01, 240139.24 examples/s]Generating train split: 336613 examples [00:01, 248148.06 examples/s]Generating train split: 370109 examples [00:01, 216740.61 examples/s]Generating train split: 403075 examples [00:01, 229466.68 examples/s]Generating train split: 436192 examples [00:01, 247575.53 examples/s]Generating train split: 470438 examples [00:02, 263317.82 examples/s]Generating train split: 504990 examples [00:02, 274323.88 examples/s]Generating train split: 538836 examples [00:02, 277619.39 examples/s]Generating train split: 548014 examples [00:02, 239045.36 examples/s]
+Loaded metadata rows: 5
+Chosen audio: None
+No existing audio file found in the small sample. Exiting.

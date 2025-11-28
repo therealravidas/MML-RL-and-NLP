@@ -1,6 +1,0 @@
-PYTHON: 3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]
-Imported datasets OK, location: /home/BTECH_7TH_SEM/Desktop/MML-RL-and-NLP/NLP/nlp-venv/lib/python3.12/site-packages/datasets/__init__.py
-Imported pyarrow OK, location: /home/BTECH_7TH_SEM/Desktop/MML-RL-and-NLP/NLP/nlp-venv/lib/python3.12/site-packages/pyarrow/__init__.py
-Imported soundfile OK, location: /home/BTECH_7TH_SEM/Desktop/MML-RL-and-NLP/NLP/nlp-venv/lib/python3.12/site-packages/soundfile.py
-Imported torchaudio OK, location: /home/BTECH_7TH_SEM/Desktop/MML-RL-and-NLP/NLP/nlp-venv/lib/python3.12/site-packages/torchaudio/__init__.py
-Imported numpy OK, location: /home/BTECH_7TH_SEM/Desktop/MML-RL-and-NLP/NLP/nlp-venv/lib/python3.12/site-packages/numpy/__init__.py
