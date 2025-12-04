@@ -21,9 +21,9 @@ from assemble_isl_ffmpeg import assemble_text_to_video
 aai.API_KEY = ASSEMBLYAI_API_KEY
 
 
-st.set_page_config(page_title="Audio → ISL Video", layout="wide")
+st.set_page_config(page_title="SLAPT - Sign Language Announcement for Public Transport", layout="wide")
 
-st.title("Audio → ISL video")
+st.title("SLAPT - Sign Language Announcement for Public Transport")
 
 st.sidebar.header("Configuration")
 st.sidebar.markdown("These are backend options for ISL rendering.")
@@ -44,8 +44,8 @@ with col1:
 with col2:
     audio_url = st.text_input("Or paste audio URL")
 
-st.markdown("### OR paste transcript manually (optional)")
-manual_transcript = st.text_area("Manual transcript (optional)", height=140)
+st.markdown("### OR paste transcript manually")
+manual_transcript = st.text_area("Manual transcript", height=140)
 
 run_button = st.button("Create ISL video")
 
@@ -81,12 +81,12 @@ if run_button:
                 save_file(audio_file, local_audio)
                 st.info(f"Audio saved: {local_audio}")
 
-                with st.spinner("Uploading to AssemblyAI..."):
+                with st.spinner("Uploading Audio..."):
                     upload_url = aai.upload_file(str(local_audio))
                     transcript_id = aai.start_transcription(upload_url)
 
             else:
-                with st.spinner("Requesting transcription from AssemblyAI..."):
+                with st.spinner("Requesting transcription..."):
                     transcript_id = aai.start_transcription(audio_url)
 
             # Poll for completion
