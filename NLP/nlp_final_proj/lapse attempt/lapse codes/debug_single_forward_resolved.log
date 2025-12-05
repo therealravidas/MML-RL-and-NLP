@@ -1,0 +1,10 @@
+PY: 3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]
+PID: 20069
+cwd: /home/BTECH_7TH_SEM/Desktop/MML-RL-and-NLP/NLP/nlp_final_proj/python_files
+Environment thread limits: None None None
+[start] mem: total=31G used=6G free=23G swap_free=7G
+Loading small metadata slice from: /home/BTECH_7TH_SEM/pspeech_meta_jsonl/train.resolved.jsonl
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 66007 examples [00:00, 589814.09 examples/s]Generating train split: 204228 examples [00:00, 797186.26 examples/s]Generating train split: 336613 examples [00:00, 929042.87 examples/s]Generating train split: 470438 examples [00:00, 1019292.68 examples/s]Generating train split: 548014 examples [00:00, 976607.40 examples/s] 
+Loaded metadata rows: 5
+Chosen audio: None
+No existing audio file found in the small sample. Exiting.
